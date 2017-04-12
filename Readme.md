@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Яна Никитенко](https://up.htmlacademy.ru/htmlcss/17/user/360823).
-* Наставник: `Неизвестно`.
+* Наставник: [Анастасия Мигаева] (https://htmlacademy.ru/profile/hatewait).
 
 ---
 
