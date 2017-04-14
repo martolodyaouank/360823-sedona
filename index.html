@@ -5,8 +5,117 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+   <header class="main-header">
+     <div class="container">
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Фото и видео</a>
+          </li>
+        </ul>
+        <a href="#"><img src="http://placehold.it/150x100"  alt="лого"></a>
+        <ul>
+          <li>
+            <a href="#">Карта штата</a>
+          </li>
+          <li>
+            <a href="#">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+   </header>
+   <main class="container">
+     <section class="greeting">
+       <p class="greeting-1">Welcome</p>
+       <p class="greeting-2">to the gorgeous</p>
+       <h1 class="greeting-3">Sedona</h1>
+       <p class="greeting-4">"Because Grand Canyon sucks!"</p>
+       <b class="greeting-5">СЕДОНА — небольшой городок в Аризоне,  заслуживающий большего! </b>
+       <p class="greeting-6">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+     </section>
+     <div class="reasons reasons-main">
+       <div class="reasons-item">
+         <b class="reasons-name">Настоящий городок</b>
+         <p>— №1 —</p>
+         <p>Не аттракцион для туристов, там течёт своя жизнь</p>
+         <img src="http://placehold.it/150x100"  alt="город">
+       </div>
+     </div>
+     <section class="features">
+       <div class="features-item">
+         <b class="features-name">Жильё</b>
+         <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+       </div>
+       <div class="features-item">
+         <b class="features-name">Еда</b>
+         <p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+       </div>
+       <div class="features-item">
+         <b class="features-name">Сувениры</b>
+         <p>Не только китайского, но и местного производства!</p>
+       </div>
+     </section>
+     <div class="reasons reasons-main">
+       <div class="reasons-item">
+         <img src="http://placehold.it/150x100" alt="пейзаж">
+         <b class="reasons-name">Там есть мост дьявола</b>
+         <p>— №2 —</p>
+         <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+       </div>
+     </div>
+     <section class="reasons">
+       <div class="reasons-item">
+         <b class="reason-name">Небольшая площадь</b>
+         <p>— №3 —</p>
+         <p>Все достопримечательности находятся очень близко</p>
+       </div>
+       <div class="reasons-item">
+         <b class="reason-name">Красивая дорога</b>
+         <p>— №4 —</p>
+         <p>Ехать в Седону из Лас-Вегаса совсем не скучно</p>
+       </div>
+       <div class="reasons-item">
+         <b class="reason-name">Мало туристов</b>
+         <p>— №5 —</p>
+         <p>Большинство едет в Гранд Каньон и толпится там</p>
+       </div>
+     </section>
+       <div class="reservation">
+         <h2 class="reservation-title">Заинтересовались?</h2>
+         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+         <form class="reservation-form" action="http://echo.htmlacademy.ru" method="post">
+           <p>Поиск гостиницы в Седоне</p>
+           <label for="date1">Дата заезда</label>
+             <input type="date" name="date" id="date1">
+           <label for="date2">Дата выезда</label>
+             <input type="date" name="date" id="date2">
+           <label for="amount1">Взрослые</label>
+             <input type="number" name="amount" id="amount1">
+           <label for="amount2">Дети</label>
+             <input type="number" name="amount" id="amount2">
+           <a class="btn" href="#">Найти</a>
+        </form>
+     </div>
+   </main>
+   <footer class="main-footer">
+     <div class="container">
+       <section class="footer-search">
+         <a href="#">#VISITSEDONA</a>
+       </section>
+       <section class="footer-social">
+         <a class="social-btn social-btn-tw" href="#">Twitter</a>
+         <a class="social-btn social-btn-fb" href="#">Facebook</a>
+         <a class="social-btn social-btn-yt" href="#">Youtube</a>
+       </section>
+       <section class="footer-copyright">
+         <p>Website by</p>
+         <a class="btn" href="#">html academy</a>
+       </section>
+     </div>
+   </footer>
   </body>
 </html>
