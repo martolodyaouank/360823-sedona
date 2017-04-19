@@ -1,0 +1,30 @@
+body {
+  font-family:"PT Sans", serif;
+  font-size: 14px;
+  font-color: black;
+  line-height:21px;
+  text-transform: uppercase;
+}
+
+
+.form-heading,
+ .hotel-title,
+  .reasons-name,
+   .features-name,
+   .secondary-nav-description <!--h2--!> {
+  font-family: "PT Sans", serif;
+  font-size: 21px;
+  font-color: black;
+  font-weight: bold;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.reservation-title {
+  font-family:"PT Sans", serif;
+  font-size:30px;
+  font-color: black;
+  font-weight:bold;
+  line-height:21px;
+  text-transform: uppercase;
+}
