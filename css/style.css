@@ -6,7 +6,7 @@ body {
   color:#333333;
 }
 
-
+.greeting-title,
 .form-heading,
 .hotel-title,
 .reasons-name,
@@ -23,9 +23,16 @@ body {
 .reservation-title {
   font-family:"PT Sans", serif;
   font-size:30px;
-  font-color: black;
   font-weight:bold;
   line-height:21px;
+  text-transform: uppercase;
+  color:black;
+}
+
+.secondary-nav-item {
+  font-family:"PT Sans", serif;
+  font-size:12px;
+  line-height:18px;
   text-transform: uppercase;
   color:black;
 }
