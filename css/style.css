@@ -8,10 +8,10 @@ body {
 
 
 .form-heading,
- .hotel-title,
-  .reasons-name,
-   .features-name,
-   .secondary-nav-description <!--h2--!> {
+.hotel-title,
+.reasons-name,
+.features-name,
+.secondary-nav-description {
   font-family: "PT Sans", serif;
   font-size: 21px;
   font-color: black;
