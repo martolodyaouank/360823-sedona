@@ -1,9 +1,9 @@
 body {
   font-family:"PT Sans", serif;
   font-size: 14px;
-  font-color: black;
   line-height:21px;
   text-transform: uppercase;
+  color:#333333;
 }
 
 
@@ -14,10 +14,10 @@ body {
 .secondary-nav-description {
   font-family: "PT Sans", serif;
   font-size: 21px;
-  font-color: black;
   font-weight: bold;
   line-height: 21px;
   text-transform: uppercase;
+  color:black;
 }
 
 .reservation-title {
@@ -27,4 +27,5 @@ body {
   font-weight:bold;
   line-height:21px;
   text-transform: uppercase;
+  color:black;
 }
