@@ -1,9 +1,41 @@
 body {
-  font-family:"PT Sans", serif;
+  background-color:grey;
+}
+a {
+  text-decoration:none;
+}
+ul {
+  list-style:none;
+}
+.main-nav-item-link {
+  font-family: "PT Sans", "Arial", serif;
   font-size: 14px;
-  line-height:21px;
+  font-weight:bold;
+  line-height: 26px;
   text-transform: uppercase;
-  color:#333333;
+  color: black;
+}
+.active .main-nav-item-link {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 14px;
+  font-weight:bold;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #766357;
+}
+
+.greeting-description,
+.features-description,
+.reasons-description,
+.reasons-number,
+.reservation-description,
+.hotel-type,
+.hotel-price {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #333333;
 }
 
 .greeting-title,
@@ -11,28 +43,111 @@ body {
 .hotel-title,
 .reasons-name,
 .features-name,
-.secondary-nav-description {
-  font-family: "PT Sans", serif;
+.second-nav-description,
+.search-tag,
+.reservation-search,
+.search {
+  font-family: "PT Sans", "Arial", serif;
   font-size: 21px;
   font-weight: bold;
   line-height: 21px;
   text-transform: uppercase;
-  color:black;
+  color: black;
+}
+
+.reasons-main,
+.reasons-main .reasons-name,
+.reasons-main .reasons-number,
+.reasons-main .reasons-description,
+.reservation-search,
+.search {
+  color:white;
 }
 
 .reservation-title {
-  font-family:"PT Sans", serif;
-  font-size:30px;
-  font-weight:bold;
-  line-height:21px;
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 21px;
   text-transform: uppercase;
-  color:black;
+  color: black;
 }
 
-.secondary-nav-item {
-  font-family:"PT Sans", serif;
-  font-size:12px;
-  line-height:18px;
+.form-heading {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
   text-transform: uppercase;
-  color:black;
+  color: white;
+}
+
+.map {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.info {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.second-nav-title {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.sort-nav-link {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #81b3d2;
+  color: rgba(0,0,0,0.3);
+}
+.active .sort-nav-link {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration:none;
+  color: #81b3d2;
+}
+
+.btn-info,
+.btn-action {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 14px;
+  font-weight:bold;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.rating {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.footer-copyright-link {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: black;
 }
