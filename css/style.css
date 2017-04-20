@@ -8,7 +8,7 @@ ul {
   list-style:none;
 }
 .main-nav-item-link {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   font-weight:bold;
   line-height: 26px;
@@ -16,7 +16,7 @@ ul {
   color: black;
 }
 .active .main-nav-item-link {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   font-weight:bold;
   line-height: 26px;
@@ -24,33 +24,64 @@ ul {
   color: #766357;
 }
 
-.greeting-description,
+
 .features-description,
 .reasons-description,
 .reasons-number,
-.reservation-description,
 .hotel-type,
 .hotel-price {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
   color: #333333;
 }
 
+.greeting-description {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.reservation-description {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+
+.reasons-name {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: black;
+}
+
 .greeting-title,
-.form-heading,
 .hotel-title,
-.reasons-name,
-.features-name,
 .second-nav-description,
 .search-tag,
 .reservation-search,
 .search {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 21px;
   font-weight: bold;
-  line-height: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.features-name {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 24px;
   text-transform: uppercase;
   color: black;
 }
@@ -65,16 +96,16 @@ ul {
 }
 
 .reservation-title {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 30px;
   font-weight: bold;
-  line-height: 21px;
+  line-height: 24px;
   text-transform: uppercase;
   color: black;
 }
 
 .form-heading {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 16px;
   font-weight: bold;
   line-height: 21px;
@@ -83,7 +114,7 @@ ul {
 }
 
 .map {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
@@ -92,7 +123,7 @@ ul {
 }
 
 .info {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
@@ -100,7 +131,7 @@ ul {
 }
 
 .second-nav-title {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
@@ -108,7 +139,7 @@ ul {
 }
 
 .sort-nav-link {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
@@ -118,7 +149,7 @@ ul {
   color: rgba(0,0,0,0.3);
 }
 .active .sort-nav-link {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
@@ -128,7 +159,7 @@ ul {
 
 .btn-info,
 .btn-action {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   font-weight:bold;
   line-height: 21px;
@@ -137,7 +168,7 @@ ul {
 }
 
 .rating {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
@@ -145,7 +176,7 @@ ul {
 }
 
 .footer-copyright-link {
-  font-family: "PT Sans", "Arial", serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
