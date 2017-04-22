@@ -1,29 +1,35 @@
 body {
-  background-color:grey;
+  background-color: grey;
 }
+
+
+/* ТЕКСТОВЫЕ СТИЛИ */
+
 a {
-  text-decoration:none;
+  text-decoration: none;
 }
+
 ul {
-  list-style:none;
+  list-style: none;
 }
+
 .main-nav-item-link {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
-  font-weight:bold;
+  font-weight: bold;
   line-height: 26px;
   text-transform: uppercase;
   color: black;
 }
+
 .active .main-nav-item-link {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
-  font-weight:bold;
+  font-weight: bold;
   line-height: 26px;
   text-transform: uppercase;
   color: #766357;
 }
-
 
 .features-description,
 .reasons-description,
@@ -52,7 +58,6 @@ ul {
   text-transform: uppercase;
   color: #333333;
 }
-
 
 .reasons-name {
   font-family: "PT Sans", "Arial", sans-serif;
@@ -87,12 +92,15 @@ ul {
 }
 
 .reasons-main,
-.reasons-main .reasons-name,
-.reasons-main .reasons-number,
-.reasons-main .reasons-description,
+.reasons-main
+.reasons-name,
+.reasons-main
+.reasons-number,
+.reasons-main
+.reasons-description,
 .reservation-search,
 .search {
-  color:white;
+  color: white;
 }
 
 .reservation-title {
@@ -146,22 +154,22 @@ ul {
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-color: #81b3d2;
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
+
 .active .sort-nav-link {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
-  text-decoration:none;
+  text-decoration: none;
   color: #81b3d2;
 }
 
-.btn-info,
-.btn-action {
+.btn-info, .btn-action {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
-  font-weight:bold;
+  font-weight: bold;
   line-height: 21px;
   text-transform: uppercase;
   color: white;
@@ -181,4 +189,179 @@ ul {
   line-height: 26px;
   text-transform: uppercase;
   color: black;
+}
+
+
+/* СЕТКИ */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-nav {
+  float: left;
+  width: 1130px;
+  padding-left: 70px;
+  min-height: 56px;
+  background-color: white;
+}
+
+.main-nav-item {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo {
+  position: absolute;
+}
+
+.background-image {
+  padding-top: 80px;
+  padding-bottom:30px;
+  width: 458px;
+  margin-top: 76px;
+  min-height: 352px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+}
+
+.greeting {
+  width: 500px;
+  padding-top:50px;
+  margin-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.first-reasons-item {
+  float: left;
+  width: 400px;
+  min-height: 255px;
+  background-color: #81b3d2;
+  text-align: center;
+}
+
+.first-reasons-img-block {
+  float: right;
+  width: 800px;
+  min-height: 255px;
+}
+
+.advantages {
+  background-color: #eeeeee;
+}
+
+.features-item {
+  float: left;
+  width: 306px;
+  min-height: 300px;
+  margin-right: 140px;
+  background-color: white;
+  text-align: center;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.reasons-main .second-reasons-item {
+  float: right;
+  width: 400px;
+  min-height: 255px;
+  background-color: #81b3d2;
+  text-align: center;
+}
+
+.second-reasons-img-block {
+  float: left;
+  width: 800px;
+  min-height: 255px;
+}
+
+.reasons-item {
+  float: left;
+  width: 306px;
+  min-height: 300px;
+  margin-right: 140px;
+  text-align: center;
+}
+
+.reasons-item:last-child {
+  margin-right: 0;
+}
+
+.reservation {
+  width: 600px;
+  padding-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.reservation-description {
+  margin-bottom: 60px;
+
+}
+
+.reservation-search {
+  background-color: #766357;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.form-description {
+  margin-top: 0;
+  margin-bottom:60px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 560px;
+  height: 395px;
+  text-align: center;
+  background-color: white;
+}
+.search {
+  background-color:#81b3d2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+.main-footer {
+  min-height:120px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: white;
+}
+
+.footer-search {
+  display: inline-block;
+  vertical-align: top;
+  width: 320px;
+  min-height: 90px;
+  text-align: center;
+}
+
+.footer-social {
+  display: inline-block;
+  vertical-align: top;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float:right;
+  width: 180px;
+  min-height: 90px;
 }

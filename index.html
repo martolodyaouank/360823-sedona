@@ -8,9 +8,9 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container clearfix">
     <header class="main-header">
-      <nav class="main-nav">
+      <nav class="main-nav clearfix">
         <ul class="main-nav-list">
           <li class="main-nav-item">
             <a class="main-nav-item-link" href="#">Информация</a>
@@ -32,7 +32,7 @@
     </header>
     <main>
       <section class="background-section">
-        <img class="background-image" src="img/intro.png" width="458" height="352" alt="WELCOME TO SEDONA">
+        <div class="background-image"><img class="background-image" src="img/intro.png" width="458" height="352" alt="WELCOME TO SEDONA"></div>
         <img class="background-image-down" src="img/background-white.png" width="1200" height="57" alt="">
       </section>
       <section class="greeting">
@@ -40,16 +40,16 @@
         <p class="greeting-description">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </section>
       <section class="advantages reasons-main">
-        <div class="reasons-item">
+        <div class="first-reasons-item">
           <h2 class="reasons-name">Настоящий городок</h2>
           <span class="reasons-number">— №1 —</span>
           <p class="reasons-description">Не аттракцион для туристов, там течёт своя жизнь</p>
-          <div class="reasons-img-block">
+        </div>
+          <div class="first-reasons-img-block">
             <img class="reasons-image" src="img/reason-1.jpg" width="800" height="256" alt="город">
           </div>
-        </div>
       </section>
-      <section class="features">
+      <section class="features clearfix">
         <div class="features-item">
           <h2 class="features-name">Жильё</h2>
           <p class="features-description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
@@ -64,16 +64,16 @@
         </div>
       </section>
       <section class="advantages reasons-main">
-        <div class="reasons-item">
-          <div class="reasons-img-block">
-            <img class="reasons-image" src="img/reason-2.jpg" width="800" height="256" alt="пейзаж">
-          </div>
+          <div class="second-reasons-item">
           <h2 class="reasons-name">Там есть мост дьявола</h2>
           <span class="reasons-number">— №2 —</span>
           <p class="reasons-description">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </div>
+        <div class="second-reasons-img-block">
+          <img class="reasons-image" src="img/reason-2.jpg" width="800" height="256" alt="пейзаж">
+        </div>
       </section>
-      <section class="advantages">
+      <section class="advantages clearfix">
         <div class="reasons-item">
           <h2 class="reasons-name">Небольшая площадь</h2>
           <span class="reasons-number">— №3 —</span>
@@ -125,8 +125,6 @@
             </div>
           </form>
         </div>
-        <iframe class="search-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d564474.505247366!2d-112.00279115033129!3d34.87271362170046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1462035967330"
-          allowfullscreen></iframe>
       </section>
     </main>
     <footer class="main-footer">
