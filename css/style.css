@@ -255,10 +255,11 @@ ul {
   background-size: contain;
   width:100%;
 }
+
 .greeting {
   width: 500px;
   padding-top:45px;
-  margin-bottom: 60px;
+  margin-bottom: 55px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -286,7 +287,7 @@ ul {
 .features-item {
   float: left;
   width: 400px;
-  min-height: 300px;
+  min-height: 330px;
   background-color: white;
   text-align: center;
 }
@@ -309,12 +310,13 @@ ul {
 .reasons-item {
   float: left;
   width: 400px;
-  min-height: 300px;
+  min-height: 256px;
   text-align: center;
 }
 
 .reservation {
   width: 600px;
+  margin-top:55px;
   padding-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
@@ -322,7 +324,7 @@ ul {
 }
 
 .reservation-description {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 
 }
 
@@ -343,6 +345,14 @@ ul {
   height: 395px;
   text-align: center;
   background-color: white;
+
+}
+.map {
+  width:1200px;
+  height:590px;
+  background-image: url("../img/map.jpg");
+  background-repeat: no-repeat;
+  position:absolute;
 }
 .search {
   background-color:#81b3d2;
@@ -356,28 +366,33 @@ ul {
   display:flex;
   justify-content: space-between;
   align-items: baseline;
-  min-height: 120px;
+  width:1200px;
+  min-height: 121px;
   background-color: white;
-  margin-right:70px;
-  margin-left:70px ;
+  opacity: 0.9;
 }
 
 .footer-search {
   float: left;
   background-color: white;
   text-align: center;
+  margin-left:130px;
+  margin-top: 35px;
 }
 
 .footer-social {
   float: left;
   background-color: white;
   text-align: center;
+  margin-top: 35px;
 }
 
 .footer-copyright {
   float: left;
   background-color: white;
   text-align: center;
+  margin-right:225px;
+  margin-top: 35px;
 }
 
 /*ДЛЯ ВНУТРЕННЕЙ СТРАНИЦЫ*/
@@ -416,7 +431,7 @@ ul {
   background-color: white;
   border-bottom: 1px solid #e5e5e5;
   margin-right:70px;
-  margin-left:70px ;
+  margin-left:70px;
 }
 
 .second-nav-sorting {
@@ -424,6 +439,7 @@ ul {
   justify-content: flex-start;
   align-items: baseline;
   margin-left:40px ;
+  margin-top:25px;
 }
 .sort-nav-item {
   display:inline-block;
