@@ -24,7 +24,6 @@ ul {
 
 .main-nav {
   width: 1200px;
-  min-height: 56px;
   background-color: #ffffff;
 }
 
@@ -272,13 +271,16 @@ ul {
   text-align: center;
   background-color: #ffffff;
 }
-
+.search-btn {
+  margin-top:190px;
+}
 .search {
   background-color: #81b3d2;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 190px;
-  padding-right: 190px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 195px;
+  padding-right: 195px;
+  margin-bottom: -40px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 21px;
   font-weight: bold;
@@ -302,11 +304,11 @@ ul {
 
 .main-footer {
   margin-top: -120px;
+  padding-bottom:25px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   width: 1200px;
-  min-height: 121px;
   background-color: #ffffff;
   opacity: 0.9;
 }
@@ -347,7 +349,7 @@ ul {
 
 .info {
   background-image: url("../img/filter-background.jpg");
-  min-height: 270px;
+  min-height: 220px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 21px;
@@ -385,11 +387,11 @@ ul {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
-  min-height: 87px;
   background-color: #ffffff;
   border-bottom: 1px solid #e5e5e5;
   margin-right: 70px;
   margin-left: 70px;
+  padding-bottom:10px;
 }
 
 .second-nav-title {
@@ -491,6 +493,6 @@ ul {
   justify-content: space-between;
   align-items: baseline;
   width: 1200px;
-  min-height: 121px;
+  padding-bottom:25px;
   background-color: #ffffff;
 }
