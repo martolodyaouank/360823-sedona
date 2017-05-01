@@ -1,0 +1,161 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-checkbox-on {
+    width: 26px;
+    height: 22px;
+    background-position: -5px -5px;
+}
+
+.sprite-checkbox-on-blocked {
+    width: 26px;
+    height: 22px;
+    background-position: -41px -5px;
+}
+
+.sprite-ckeckbox {
+    width: 22px;
+    height: 22px;
+    background-position: -77px -5px;
+}
+
+.sprite-ckeckbox-blocked {
+    width: 22px;
+    height: 22px;
+    background-position: -109px -5px;
+}
+
+.sprite-data-active {
+    width: 21px;
+    height: 22px;
+    background-position: -141px -5px;
+}
+
+.sprite-data-hover {
+    width: 21px;
+    height: 22px;
+    background-position: -172px -5px;
+}
+
+.sprite-date {
+    width: 21px;
+    height: 22px;
+    background-position: -5px -37px;
+}
+
+.sprite-facebook {
+    width: 10px;
+    height: 19px;
+    background-position: -203px -5px;
+}
+
+.sprite-feature-1 {
+    width: 75px;
+    height: 72px;
+    background-position: -36px -37px;
+}
+
+.sprite-feature-2 {
+    width: 74px;
+    height: 70px;
+    background-position: -121px -37px;
+}
+
+.sprite-feature-3 {
+    width: 64px;
+    height: 76px;
+    background-position: -121px -117px;
+}
+
+.sprite-html-academy {
+    width: 113px;
+    height: 39px;
+    background-position: -223px -5px;
+}
+
+.sprite-html-academy-active {
+    width: 113px;
+    height: 39px;
+    background-position: -205px -54px;
+}
+
+.sprite-html-academy-hover {
+    width: 113px;
+    height: 39px;
+    background-position: -205px -103px;
+}
+
+.sprite-minus {
+    width: 12px;
+    height: 3px;
+    background-position: -328px -54px;
+}
+
+.sprite-minus-active {
+    width: 12px;
+    height: 3px;
+    background-position: -328px -67px;
+}
+
+.sprite-minus-hover {
+    width: 12px;
+    height: 3px;
+    background-position: -5px -80px;
+}
+
+.sprite-plus {
+    width: 11px;
+    height: 11px;
+    background-position: -328px -80px;
+}
+
+.sprite-plus-active {
+    width: 11px;
+    height: 11px;
+    background-position: -5px -101px;
+}
+
+.sprite-plus-hover {
+    width: 11px;
+    height: 11px;
+    background-position: -328px -101px;
+}
+
+.sprite-sort-direction-down-active {
+    width: 11px;
+    height: 10px;
+    background-position: -5px -122px;
+}
+
+.sprite-sort-direction-up-active {
+    width: 11px;
+    height: 10px;
+    background-position: -26px -122px;
+}
+
+.sprite-sort-direction-up-hover {
+    width: 11px;
+    height: 10px;
+    background-position: -47px -122px;
+}
+
+.sprite-star {
+    width: 18px;
+    height: 16px;
+    background-position: -68px -122px;
+}
+
+.sprite-twitter {
+    width: 17px;
+    height: 15px;
+    background-position: -328px -122px;
+}
+
+.sprite-youtube {
+    width: 20px;
+    height: 16px;
+    background-position: -5px -152px;
+}

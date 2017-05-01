@@ -6,7 +6,7 @@
   <title>HTML Academy: Седона</title>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic" rel="stylesheet">
 </head>
 
 <body>
@@ -100,32 +100,34 @@
       <section class="map">
         <div class="form-description">
           <form action="http://echo.htmlacademy.ru" method="post">
-            <div class="date-in-block">
-              <label for="date-in">Дата заезда:</label>
-              <input type="text" value="24 апреля 2017" name="date" id="date-in">
-              <a class="icon-calendar-link" href="#"><span class="icon-calendar"></span></a>
-            </div>
-            <div class="date-out-block">
-              <label for="date-out">Дата выезда:</label>
-              <input type="text" value="4 июля 2017" name="date" id="date-out">
-              <a class="icon-calendar-link" href="#"><span class="icon-calendar"></span></a>
-            </div>
-            <div class="amount-people-block">
-              <div class="amount-adults-block">
-                <label for="amount-adults">Взрослые:</label>
-                <input type="text" value="2" name="amount" id="amount-adults">
-                <button type="button" class="icon-minus"></button>
-                <button type="button" class="icon-plus"></button>
+            <div class="form-inside">
+              <div class="date-in-block">
+                <label for="date-in">Дата заезда:</label>
+                <input type="text" value="24 апреля 2017" name="date" id="date-in">
+                <a class="icon-calendar" href="#"></a>
               </div>
-              <div class="amont-children-block">
-                <label for="amount-children">Дети:</label>
-                <input type="text" value="0" name="amount" id="amount-children">
-                <button type="button" class="icon-minus"></button>
-                <button type="button" class="icon-plus"></button>
+              <div class="date-out-block">
+                <label for="date-out">Дата выезда:</label>
+                <input type="text" value="4 июля 2017" name="date" id="date-out">
+                <a class="icon-calendar-link" href="#"><span class="icon-calendar"></span></a>
               </div>
-            </div>
-            <div class="search-btn">
-              <a class="search-btn-link" href="#">Найти</a>
+              <div class="amount-people-block">
+                <div class="amount-adults-block">
+                  <label for="amount-adults">Взрослые:</label>
+                  <input type="text" value="2" name="amount" id="amount-adults">
+                  <button type="button" class="icon-minus"></button>
+                  <button type="button" class="icon-plus"></button>
+                </div>
+                <div class="amont-children-block">
+                  <label for="amount-children">Дети:</label>
+                  <input type="text" value="0" name="amount" id="amount-children">
+                  <button type="button" class="icon-minus"></button>
+                  <button type="button" class="icon-plus"></button>
+                </div>
+              </div>
+              <div class="search-btn">
+                <a class="search-btn-link" href="#">Найти</a>
+              </div>
             </div>
           </form>
         </div>
