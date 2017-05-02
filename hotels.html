@@ -35,38 +35,58 @@
     <main>
       <section class="info clearfix">
         <form>
-          <div class="infrastructure">
-            <h4 class="form-heading">Инфраструктура:</h4>
-            <input type="checkbox" name="checkbox" id="pool" checked>
-            <label for="pool">Бассейн</label>
-            <input type="checkbox" name="checkbox" id="parking">
-            <label for="parking">Парковка</label>
-            <input type="checkbox" name="checkbox" id="wifi">
-            <label for="wifi">Wi-fi</label>
-          </div>
-          <div class="living">
-            <h4 class="form-heading">Тип жилья:</h4>
-            <input type="checkbox" name="checkbox" id="hotel" checked>
-            <label for="hotel">Гостиница</label>
-            <input type="checkbox" name="checkbox" id="motel" checked>
-            <label for="motel">Мотель</label>
-            <input type="checkbox" name="checkbox" id="apartment" checked>
-            <label for="apartment">Апартаменты</label>
-          </div>
-          <div class="price">
-            <h4 class="form-heading">Стоимость в сутки (р):</h4>
-            <label for="price-from">От</label>
-            <input type="text" name="from" value="0" id="price-from">
-            <label for="price-to">До</label>
-            <input type="text" name="to" value="3000" id="price-to">
-            <div class="price-range">
-              <div class="price-common-band">
-                <div class="price-selected-band"></div>
-              </div>
-              <div class="price-slider price_slider-min"></div>
-              <div class="price-slider price_slider-max"></div>
+          <div class="info-inside">
+            <div class="infrastructure">
+              <h4 class="form-heading">Инфраструктура:</h4>
+              <label class="pool-checkbox">
+                <input type="checkbox" name="checkbox" id="pool" checked>
+                <span class="checkbox-image"></span>
+                Бассейн
+              </label>
+              <label class="parking-checkbox">
+                <input type="checkbox" name="checkbox" id="parking">
+                <span class="checkbox-image"></span>
+                Парковка
+              </label>
+              <label class="wifi-checkbox">
+                <input type="checkbox" name="checkbox" id="wifi">
+                <span class="checkbox-image"></span>
+                Wi-fi
+              </label>
             </div>
-            <button type="button" name="show">Показать</button>
+            <div class="living">
+              <h4 class="form-heading">Тип жилья:</h4>
+              <label class="hotel-checkbox">
+                <input type="checkbox" name="checkbox" id="hotel" checked>
+                <span class="checkbox-image"></span>
+                Гостиница
+              </label>
+              <label class="motel-checkbox">
+                <input type="checkbox" name="checkbox" id="motel" checked>
+                <span class="checkbox-image"></span>
+                Мотель
+              </label>
+              <label class="apartment-checkbox">
+                <input type="checkbox" name="checkbox" id="apartment" checked>
+                <span class="checkbox-image"></span>
+                Апартаменты
+              </label>
+            </div>
+            <div class="price">
+              <div class="form-heading">Стоимость в сутки (р):</div>
+              <div class="price-controls">
+                <label class="price-from">от <input type="text" name="price-from" value="0"></label>
+                <label class="price-to">до <input type="text" name="price-to" value="3000"></label>
+              </div>
+              <div class="price-range">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="price-slider price-slider-min"></div>
+                <div class="price-slider price-slider-max"></div>
+              </div>
+              <button class="btn-transparent" type="submit">Показать</button>
+            </div>
           </div>
         </form>
       </section>
@@ -168,7 +188,7 @@
         </article>
       </div>
     </main>
-    <footer class="main-footer-opacity-none">
+    <footer class="footer-inner">
       <div class="footer-search">
         <a class="footer-search-tag" href="#"><h2 class="search-tag">#VISITSEDONA</h2></a>
       </div>
