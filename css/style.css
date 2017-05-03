@@ -37,6 +37,12 @@ a {
 }
 
 .main-nav-item-link {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #000000;
   text-align: center;
 }
 
@@ -58,8 +64,9 @@ a {
 }
 
 .main-nav-item {
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
   width: 240px;
   border-right: 1px solid #fefefe;
 }
@@ -71,17 +78,6 @@ a {
 
 .main-nav-item:nth-child(4) {
   border: none;
-}
-
-.main-nav-item-link {
-  display: block;
-  padding: 15px 0;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 26px;
-  text-transform: uppercase;
-  color: #000000;
 }
 
 .logo {
@@ -248,7 +244,6 @@ a {
   background-color: #81b3d2;
   text-align: center;
 }
-
 
 .second-reasons-img-block {
   float: left;
@@ -819,6 +814,7 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
   font: inherit;
   background: none;
   border: none;
+  outline: none;
 }
 
 .price-range {
