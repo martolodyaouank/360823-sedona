@@ -108,7 +108,7 @@ a {
   background-image: url("../img/background_photo.jpg");
   background-repeat: no-repeat;
   padding-top: 77px;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
 }
 
@@ -120,7 +120,7 @@ a {
 .greeting {
   width: 500px;
   padding-top: 45px;
-  margin-bottom: 45px;
+  margin-bottom: 48px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -142,10 +142,6 @@ a {
   line-height: 26px;
   text-transform: uppercase;
   color: #000000;
-}
-
-.reasons-main {
-  padding-top: 5px;
 }
 
 .features-description, .reasons-description, .reasons-number, .hotel-type, .hotel-price {
@@ -253,16 +249,12 @@ a {
   text-align: center;
 }
 
-.second-reasons-item {
-  margin-top: -5px;
-}
 
 .second-reasons-img-block {
   float: left;
   width: 800px;
   min-height: 256px;
   font-size: 0;
-  margin-top: -5px;
 }
 
 .reasons-item {
@@ -415,8 +407,6 @@ a {
 .icon-calendar {
   content: "";
   position: absolute;
-  font-size: 21px;
-  line-height: 26px;
   color: #c2c2c2;
   background: url("../img/spritesheet.png");
   width: 21px;
