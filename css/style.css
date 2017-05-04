@@ -19,7 +19,9 @@ a {
   margin: 0 auto;
   box-shadow: 0px 0px 15px 5px rgba(0, 1, 1, 0.2);
 }
-
+.main-header {
+  position:relative;
+}
 .main-nav {
   width: 1200px;
   background-color: #ffffff;
@@ -110,7 +112,7 @@ a {
 
 .background-image-down {
   margin-top: -5px;
-  margin-bottom: -5px;
+  margin-bottom: -6px;
 }
 
 .greeting {
@@ -338,13 +340,21 @@ a {
   text-transform: uppercase;
   color: #000000;
 }
+iframe {
+  width: 1200px;
+  height: 590px;
+  margin-top:-395px;
+  background-image: url("../img/map.jpg");
+  background-repeat: no-repeat;
+}
 
 .form-description {
+  position:relative;
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;
   width: 568px;
-  height: 392px;
+  height: 395px;
   background-color: #ffffff;
   box-shadow: 3px 6px 30px -2px rgba(0, 0, 0, 0.3);
 }
@@ -371,6 +381,7 @@ a {
   background-color: rgb(242, 242, 242);
   height: 38px;
   width: 346px;
+  width:100%;
   padding-left: 11px;
   outline: none;
 }
@@ -396,9 +407,13 @@ a {
 }
 .date-in-block label {
   min-width: 94px;
+  margin-right: 17px;
 }
 
-.date-out-block label {}
+.date-out-block label {
+  min-width: 97px;
+  margin-right: 15px;
+}
 
 .icon-calendar-link-in {
   content: "";
@@ -563,11 +578,11 @@ a {
   color: #88b6d1;
 }
 
+
+
 .main-footer {
-  margin-top: -120px;
-  min-height: 50px;
+  margin-top: -115px;
   display: flex;
-  width: 400px;
   width: 1200px;
   padding-top: 35px;
   padding-bottom: 35px;
@@ -580,6 +595,7 @@ a {
   text-align: center;
   width: 400px;
   height: 50px;
+  margin-top:-6px;
 }
 
 .footer-social {
@@ -588,15 +604,14 @@ a {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 50px;
 }
 
 .social-btn {
   position: relative;
   display: inline-block;
   width: 46px;
-  min-height: 50px;
-  margin-left: 5px;
+  min-height: 48px;
+  margin-left: 6px;
   font-size: 0px;
   vertical-align: top;
   text-decoration: none;
@@ -654,9 +669,8 @@ a {
   height: 50px;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-start;
   padding-right: 56px;
-  margin-top: -10px;
 }
 
 .footer-copyright-link {
@@ -664,14 +678,14 @@ a {
   background-color: #ffffff;
   text-align: center;
   margin-right: 166px;
-  margin-top: 35px;
+  margin-top: 10px;
 }
 
 .footer-copyright-link::before {
   content: "";
   position: absolute;
-  top: -11px;
-  left: 82px;
+  top: -7px;
+  left: 81px;
   width: 113px;
   height: 39px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -841,7 +855,7 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
 
 .price-controls input {
   width: 50px;
-  height: 33px;
+  height: 30px;
   margin: 0;
   color: inherit;
   font: inherit;
@@ -1154,9 +1168,7 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
 }
 
 .footer-inner {
-  min-height: 50px;
   display: flex;
-  width: 400px;
   width: 1200px;
   padding-top: 35px;
   padding-bottom: 35px;
