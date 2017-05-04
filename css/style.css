@@ -20,6 +20,10 @@ a {
   box-shadow: 0px 0px 15px 5px rgba(0, 1, 1, 0.2);
 }
 
+.main-header {
+  position: relative;
+}
+
 .main-nav {
   width: 1200px;
   background-color: #ffffff;
@@ -65,19 +69,30 @@ a {
 
 .main-nav-item {
   display: flex;
-  justify-content: center;
-  padding: 15px 0;
+  justify-content: flex-end;
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 240px;
   border-right: 1px solid #fefefe;
 }
 
+.main-nav-item:nth-child(1) {
+  padding-right: 75px;
+}
+
 .main-nav-item:nth-child(2) {
   margin-right: 240px;
+  padding-right: 66px;
   border: none;
+}
+
+.main-nav-item:nth-child(3) {
+  padding-right: 78px;
 }
 
 .main-nav-item:nth-child(4) {
   border: none;
+  padding-right: 71px;
 }
 
 .logo {
@@ -110,7 +125,7 @@ a {
 
 .background-image-down {
   margin-top: -5px;
-  margin-bottom: -4px;
+  margin-bottom: -5px;
 }
 
 .greeting {
@@ -156,6 +171,7 @@ a {
   text-transform: uppercase;
   color: #000000;
   padding-top: 32px;
+  padding-bottom: 5px;
 }
 
 .reasons-main, .reasons-main .reasons-name, .reasons-main .reasons-number, .reasons-main .reasons-description {
@@ -171,7 +187,7 @@ a {
 }
 
 .reasons-description {
-  padding-top: 10px;
+  padding-top: 6px;
 }
 
 .first-reasons-img-block {
@@ -183,16 +199,6 @@ a {
 
 .advantages {
   background-color: #eeeeee;
-}
-
-.features-name {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #000000;
-  padding-top: 145px;
 }
 
 .features-item {
@@ -207,8 +213,8 @@ a {
 .features-item:first-child::before {
   content: "";
   position: absolute;
-  top: 59px;
-  left: 161px;
+  top: 60px;
+  left: 162px;
   width: 75px;
   height: 72px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -218,8 +224,8 @@ a {
 .features-item:nth-child(2)::before {
   content: "";
   position: absolute;
-  top: 59px;
-  left: 162px;
+  top: 61px;
+  left: 163px;
   width: 74px;
   height: 70px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -229,12 +235,23 @@ a {
 .features-item:nth-child(3)::before {
   content: "";
   position: absolute;
-  top: 55px;
-  left: 166px;
+  top: 57px;
+  left: 168px;
   width: 67px;
   height: 76px;
   background: transparent url("../img/spritesheet.png") no-repeat;
   background-position: -121px -117px;
+}
+
+.features-name {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-top: 145px;
+  padding-bottom: 3px;
 }
 
 .reasons-main .second-reasons-item {
@@ -261,8 +278,7 @@ a {
 
 .reservation {
   width: 600px;
-  margin-top: 55px;
-  padding-bottom: 30px;
+  margin-top: 60px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -278,7 +294,7 @@ a {
 }
 
 .reservation-description {
-  margin-bottom: 80px;
+  margin-bottom: 45px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -287,17 +303,18 @@ a {
 }
 
 .reservation-search {
-  background-color: #766357;
-  padding-top: 34px;
-  padding-bottom: 29px;
-  padding-left: 140px;
-  padding-right: 140px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
   text-transform: uppercase;
+  display: block;
+  width: 568px;
+  margin: 0 auto;
+  padding: 30px 0;
+  text-decoration: none;
   color: #ffffff;
+  background-color: #766357;
 }
 
 .map {
@@ -311,15 +328,6 @@ a {
   line-height: 26px;
   text-transform: uppercase;
   color: #000000;
-}
-
-.date-in-block {
-  padding-top: 23px;
-  padding-left: 24px;
-}
-
-.date-out-block {
-  padding-left: 24px;
 }
 
 .form-description {
@@ -365,7 +373,7 @@ a {
 
 .form-description input:focus {
   background-color: #ffffff;
-  border: 2px solid #e5e5e5;
+  outline: 2px solid #e5e5e5;
 }
 
 .date-in-block, .date-out-block {
@@ -683,6 +691,7 @@ a {
   padding-left: 70px;
   padding-right: 73px;
   padding-top: 28px;
+  min-height: 158px;
 }
 
 .infrastructure {
@@ -761,6 +770,10 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
+}
+
+.infrastructure .form-heading {
+  padding-left: 3px;
 }
 
 .price .form-heading {
