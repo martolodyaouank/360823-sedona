@@ -20,10 +20,6 @@ a {
   box-shadow: 0px 0px 15px 5px rgba(0, 1, 1, 0.2);
 }
 
-.main-header {
-  position: relative;
-}
-
 .main-nav {
   width: 1200px;
   background-color: #ffffff;
@@ -69,30 +65,19 @@ a {
 
 .main-nav-item {
   display: flex;
-  justify-content: flex-end;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  justify-content: center;
+  padding: 15px 0;
   width: 240px;
   border-right: 1px solid #fefefe;
 }
 
-.main-nav-item:nth-child(1) {
-  padding-right: 75px;
-}
-
 .main-nav-item:nth-child(2) {
   margin-right: 240px;
-  padding-right: 66px;
   border: none;
-}
-
-.main-nav-item:nth-child(3) {
-  padding-right: 78px;
 }
 
 .main-nav-item:nth-child(4) {
   border: none;
-  padding-right: 71px;
 }
 
 .logo {
@@ -171,7 +156,6 @@ a {
   text-transform: uppercase;
   color: #000000;
   padding-top: 32px;
-  padding-bottom: 5px;
 }
 
 .reasons-main, .reasons-main .reasons-name, .reasons-main .reasons-number, .reasons-main .reasons-description {
@@ -187,7 +171,7 @@ a {
 }
 
 .reasons-description {
-  padding-top: 6px;
+  padding-top: 10px;
 }
 
 .first-reasons-img-block {
@@ -199,6 +183,16 @@ a {
 
 .advantages {
   background-color: #eeeeee;
+}
+
+.features-name {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-top: 145px;
 }
 
 .features-item {
@@ -213,8 +207,8 @@ a {
 .features-item:first-child::before {
   content: "";
   position: absolute;
-  top: 60px;
-  left: 162px;
+  top: 59px;
+  left: 161px;
   width: 75px;
   height: 72px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -224,8 +218,8 @@ a {
 .features-item:nth-child(2)::before {
   content: "";
   position: absolute;
-  top: 61px;
-  left: 163px;
+  top: 59px;
+  left: 162px;
   width: 74px;
   height: 70px;
   background: transparent url("../img/spritesheet.png") no-repeat;
@@ -235,23 +229,12 @@ a {
 .features-item:nth-child(3)::before {
   content: "";
   position: absolute;
-  top: 57px;
-  left: 168px;
+  top: 55px;
+  left: 166px;
   width: 67px;
   height: 76px;
   background: transparent url("../img/spritesheet.png") no-repeat;
   background-position: -121px -117px;
-}
-
-.features-name {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #000000;
-  padding-top: 145px;
-  padding-bottom: 3px;
 }
 
 .reasons-main .second-reasons-item {
@@ -278,7 +261,8 @@ a {
 
 .reservation {
   width: 600px;
-  margin-top: 60px;
+  margin-top: 55px;
+  padding-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -294,7 +278,7 @@ a {
 }
 
 .reservation-description {
-  margin-bottom: 45px;
+  margin-bottom: 80px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -303,18 +287,17 @@ a {
 }
 
 .reservation-search {
+  background-color: #766357;
+  padding-top: 34px;
+  padding-bottom: 29px;
+  padding-left: 140px;
+  padding-right: 140px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
   text-transform: uppercase;
-  display: block;
-  width: 568px;
-  margin: 0 auto;
-  padding: 30px 0;
-  text-decoration: none;
   color: #ffffff;
-  background-color: #766357;
 }
 
 .map {
@@ -330,6 +313,15 @@ a {
   color: #000000;
 }
 
+.date-in-block {
+  padding-top: 23px;
+  padding-left: 24px;
+}
+
+.date-out-block {
+  padding-left: 24px;
+}
+
 .form-description {
   margin-top: 0;
   margin-right: auto;
@@ -341,13 +333,12 @@ a {
 }
 
 .form-inside {
-  width: 460px;
   height: 285px;
   padding: 56px;
   padding-top: 52px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .form-description input {
@@ -373,20 +364,23 @@ a {
 
 .form-description input:focus {
   background-color: #ffffff;
-  outline: 2px solid #e5e5e5;
+  border: 2px solid #e5e5e5;
 }
 
 .date-in-block, .date-out-block {
   position: relative;
   padding: 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .date-in-block label {
-  padding-right: 21px;
+  min-width: 94px;
 }
 
 .date-out-block label {
-  padding-right: 16px;
+
 }
 
 .icon-calendar-link-in {
@@ -394,7 +388,7 @@ a {
   position: absolute;
   width: 21px;
   height: 22px;
-  bottom: 37px;
+  bottom: 8px;
   right: 10px;
 }
 
@@ -403,7 +397,7 @@ a {
   position: absolute;
   width: 21px;
   height: 22px;
-  bottom: 37px;
+  bottom: 7px;
   right: 10px;
 }
 
@@ -427,11 +421,10 @@ a {
 
 .amount-people-block {
   padding: 0;
-  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
+  height:40px;
   width: 458px;
   box-sizing: border-box;
 }
@@ -461,18 +454,20 @@ a {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .amount-adults-block label {
-  padding-right: 40px;
+  padding-right: 48px;
 }
 
 .amount-children-block {
   position: relative;
   display: flex;
-  justify-content: flex-end;
-  align-items: baseline;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .amount-children-block label {
@@ -523,6 +518,7 @@ a {
 
 .search-btn {
   width: 100%;
+  margin-top: 55px;
   background-color: rgb(129, 179, 210);
   border: medium none;
   text-transform: uppercase;
@@ -551,12 +547,13 @@ a {
 }
 
 .main-footer {
-  margin-top: -120px;
-  min-height: 120px;
+  margin-top:-120px;
+  min-height:50px;
   display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
+  width: 400px;
   width: 1200px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   background-color: #ffffff;
   opacity: 0.9;
 }
@@ -564,26 +561,26 @@ a {
 .footer-search {
   background-color: #ffffff;
   text-align: center;
-  padding-left: 133px;
-  padding-top: 30px;
-  margin-right: 253px;
+  width: 400px;
+  height:50px;
 }
 
 .footer-social {
   background-color: #ffffff;
-  padding-top: 30px;
-  margin-right: 228px;
-  width: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height:50px;
 }
 
 .social-btn {
   position: relative;
   display: inline-block;
   width: 46px;
-  height: 48px;
-  margin-top: -15px;
-  margin-left: 2px;
-  font-size: 0;
+  min-height: 50px;
+  margin-left: 5px;
+  font-size: 0px;
   vertical-align: top;
   text-decoration: none;
   background: #81b3d2;
@@ -635,11 +632,22 @@ a {
   background-position: -5px -152px;
 }
 
+.footer-copyright {
+  width: 346px;
+  height:50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 56px;
+  margin-top:-10px;
+}
+
 .footer-copyright-link {
   position: relative;
   background-color: #ffffff;
   text-align: center;
-  margin-right: 225px;
+
+  margin-right: 166px;
   margin-top: 35px;
 }
 
@@ -691,7 +699,6 @@ a {
   padding-left: 70px;
   padding-right: 73px;
   padding-top: 28px;
-  min-height: 158px;
 }
 
 .infrastructure {
@@ -772,10 +779,6 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
   line-height: 21px;
 }
 
-.infrastructure .form-heading {
-  padding-left: 3px;
-}
-
 .price .form-heading {
   margin-bottom: 9px;
 }
@@ -822,6 +825,7 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
 
 .price-controls input {
   width: 50px;
+  height: 33px;
   margin: 0;
   color: inherit;
   font: inherit;
@@ -1134,10 +1138,11 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
 }
 
 .footer-inner {
+  min-height:50px;
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  width: 400px;
   width: 1200px;
-  padding-bottom: 25px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   background-color: #ffffff;
 }
