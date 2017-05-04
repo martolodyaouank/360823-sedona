@@ -156,6 +156,15 @@ a {
   text-transform: uppercase;
   color: #000000;
   padding-top: 32px;
+  width: 125px;
+  padding-left: 138px;
+  margin-bottom: 25px;
+}
+
+.reasons-description {
+  padding-top: 5px;
+  width: 265px;
+  padding-left: 67px;
 }
 
 .reasons-main, .reasons-main .reasons-name, .reasons-main .reasons-number, .reasons-main .reasons-description {
@@ -170,8 +179,19 @@ a {
   text-align: center;
 }
 
-.reasons-description {
-  padding-top: 10px;
+.first-reasons-item .reasons-description {
+  width: 280px;
+  padding-left: 60px;
+}
+
+.second-reasons-item .reasons-description {
+  width: 305px;
+  padding-left: 48px;
+}
+
+.second-reasons-item .reasons-name {
+  width: 150px;
+  padding-left: 125px;
 }
 
 .first-reasons-img-block {
@@ -237,6 +257,12 @@ a {
   background-position: -121px -117px;
 }
 
+.features-description {
+  width: 287px;
+  padding-left: 55px;
+  padding-top: 3px;
+}
+
 .reasons-main .second-reasons-item {
   float: right;
   width: 400px;
@@ -261,8 +287,8 @@ a {
 
 .reservation {
   width: 600px;
-  margin-top: 55px;
-  padding-bottom: 30px;
+  margin-top: 60px;
+  padding-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -289,7 +315,7 @@ a {
 .reservation-search {
   background-color: #766357;
   padding-top: 34px;
-  padding-bottom: 29px;
+  padding-bottom: 26px;
   padding-left: 140px;
   padding-right: 140px;
   font-family: "PT Sans", "Arial", sans-serif;
@@ -313,15 +339,6 @@ a {
   color: #000000;
 }
 
-.date-in-block {
-  padding-top: 23px;
-  padding-left: 24px;
-}
-
-.date-out-block {
-  padding-left: 24px;
-}
-
 .form-description {
   margin-top: 0;
   margin-right: auto;
@@ -335,7 +352,7 @@ a {
 .form-inside {
   height: 285px;
   padding: 56px;
-  padding-top: 52px;
+  padding-top: 55px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -374,14 +391,14 @@ a {
   display: flex;
   justify-content: space-between;
 }
-
+.date-out-block {
+  padding-top:17px;
+}
 .date-in-block label {
   min-width: 94px;
 }
 
-.date-out-block label {
-
-}
+.date-out-block label {}
 
 .icon-calendar-link-in {
   content: "";
@@ -424,7 +441,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height:40px;
+  height: 40px;
   width: 458px;
   box-sizing: border-box;
 }
@@ -459,7 +476,7 @@ a {
 }
 
 .amount-adults-block label {
-  padding-right: 48px;
+  padding-right: 40px;
 }
 
 .amount-children-block {
@@ -547,8 +564,8 @@ a {
 }
 
 .main-footer {
-  margin-top:-120px;
-  min-height:50px;
+  margin-top: -120px;
+  min-height: 50px;
   display: flex;
   width: 400px;
   width: 1200px;
@@ -562,7 +579,7 @@ a {
   background-color: #ffffff;
   text-align: center;
   width: 400px;
-  height:50px;
+  height: 50px;
 }
 
 .footer-social {
@@ -571,7 +588,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height:50px;
+  height: 50px;
 }
 
 .social-btn {
@@ -634,19 +651,18 @@ a {
 
 .footer-copyright {
   width: 346px;
-  height:50px;
+  height: 50px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding-right: 56px;
-  margin-top:-10px;
+  margin-top: -10px;
 }
 
 .footer-copyright-link {
   position: relative;
   background-color: #ffffff;
   text-align: center;
-
   margin-right: 166px;
   margin-top: 35px;
 }
@@ -1138,7 +1154,7 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
 }
 
 .footer-inner {
-  min-height:50px;
+  min-height: 50px;
   display: flex;
   width: 400px;
   width: 1200px;
