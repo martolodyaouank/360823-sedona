@@ -19,9 +19,11 @@ a {
   margin: 0 auto;
   box-shadow: 0px 0px 15px 5px rgba(0, 1, 1, 0.2);
 }
+
 .main-header {
-  position:relative;
+  position: relative;
 }
+
 .main-nav {
   width: 1200px;
   background-color: #ffffff;
@@ -29,7 +31,6 @@ a {
 
 .main-nav-list {
   list-style: none;
-  position: relative;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -67,19 +68,27 @@ a {
 
 .main-nav-item {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 15px 0;
   width: 240px;
   border-right: 1px solid #fefefe;
 }
-
+.main-nav-item:nth-child(1) {
+  padding-left:73px;
+}
 .main-nav-item:nth-child(2) {
+  padding-left:50px;
   margin-right: 240px;
   border: none;
+}
+.main-nav-item:nth-child(3) {
+  justify-content: space-around;
 }
 
 .main-nav-item:nth-child(4) {
   border: none;
+    justify-content: flex-end;
+  padding-right:73px;
 }
 
 .logo {
@@ -340,16 +349,17 @@ a {
   text-transform: uppercase;
   color: #000000;
 }
+
 iframe {
   width: 1200px;
   height: 590px;
-  margin-top:-395px;
+  margin-top: -395px;
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
 }
 
 .form-description {
-  position:relative;
+  position: relative;
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;
@@ -381,7 +391,7 @@ iframe {
   background-color: rgb(242, 242, 242);
   height: 38px;
   width: 346px;
-  width:100%;
+  width: 100%;
   padding-left: 11px;
   outline: none;
 }
@@ -402,9 +412,11 @@ iframe {
   display: flex;
   justify-content: space-between;
 }
+
 .date-out-block {
-  padding-top:17px;
+  padding-top: 17px;
 }
+
 .date-in-block label {
   min-width: 94px;
   margin-right: 17px;
@@ -578,8 +590,6 @@ iframe {
   color: #88b6d1;
 }
 
-
-
 .main-footer {
   margin-top: -115px;
   display: flex;
@@ -595,7 +605,7 @@ iframe {
   text-align: center;
   width: 400px;
   height: 50px;
-  margin-top:-6px;
+  margin-top: -6px;
 }
 
 .footer-social {
