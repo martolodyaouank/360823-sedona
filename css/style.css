@@ -20,6 +20,7 @@ a {
   box-shadow: 0px 0px 15px 5px rgba(0, 1, 1, 0.2);
 }
 
+
 /*HEADER*/
 
 .main-header {
@@ -125,6 +126,7 @@ a {
 }
 
 .background-image-down {
+  width: 100%;
   margin-top: -5px;
   margin-bottom: -6px;
 }
@@ -157,7 +159,7 @@ a {
 }
 
 .reasons-main {
-  background-color:#81b3d2;
+  background-color: #81b3d2;
 }
 
 .reasons-name {
@@ -326,7 +328,6 @@ a {
 .reservation {
   width: 600px;
   margin-top: 60px;
-  padding-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -351,17 +352,20 @@ a {
 }
 
 .reservation-search {
-  background-color: #766357;
-  padding-top: 34px;
-  padding-bottom: 26px;
-  padding-left: 140px;
-  padding-right: 140px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
   text-transform: uppercase;
+  text-align: center;
   color: #ffffff;
+  display: block;
+  width: 570px;
+  background-color: #766357;
+  padding-top: 34px;
+  padding-bottom: 26px;
+  margin: auto;
+  margin-top: -35px;
 }
 
 .map {
@@ -425,12 +429,12 @@ iframe {
     transform: translateX(10px);
   }
 }
+
 .form-description-error {
   display: flex;
   animation: shake;
   animation-duration: 0.5s;
 }
-
 
 .form-inside {
   height: 285px;
@@ -479,7 +483,7 @@ iframe {
 .date-out-block {
   position: relative;
   padding: 0;
-  padding-top: 17px;
+  padding-top: 18px;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -533,6 +537,7 @@ iframe {
 
 .amount-people-block {
   padding: 0;
+  padding-top: 4px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -549,7 +554,7 @@ iframe {
   background-color: #f2f2f2;
   color: #a9a9a9;
   outline: none;
-  padding-top: 11px;
+  padding-top: 9px;
 }
 
 .amount-people-block input {
@@ -638,16 +643,17 @@ iframe {
 }
 
 .search-btn {
-  width: 100%;
+  display: block;
+  width: 458px;
   margin-top: 55px;
+  padding-top: 17px;
+  padding-bottom: 15px;
   background-color: rgb(129, 179, 210);
   border: medium none;
   text-transform: uppercase;
   font-size: 21px;
   color: rgb(255, 255, 255);
-  line-height: 16px;
-  padding: 21px 0px;
-  align-self: flex-end;
+  line-height: 26px;
   text-align: center;
 }
 
@@ -667,6 +673,7 @@ iframe {
   color: #88b6d1;
 }
 
+
 /*ДЛЯ ВНУТРЕННЕЙ СТРАНИЦЫ*/
 
 .info {
@@ -684,7 +691,7 @@ iframe {
 .info-inside {
   display: flex;
   justify-content: space-between;
-  padding-left: 70px;
+  padding-left: 73px;
   padding-right: 73px;
   padding-top: 28px;
 }
@@ -702,7 +709,7 @@ iframe {
 
 .infrastructure label {
   position: relative;
-  padding-left: 40px;
+  padding-left: 38px;
   cursor: pointer;
 }
 
@@ -769,6 +776,7 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
 
 .price .form-heading {
   margin-bottom: 9px;
+  padding-left: 5px;
 }
 
 .price-controls {
@@ -1110,8 +1118,7 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
   text-align: center;
 }
 
-.btn-info,
-.btn-action {
+.btn-info, .btn-action {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -1157,7 +1164,9 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
   color: #666666;
 }
 
+
 /*FOOTER*/
+
 .main-footer {
   margin-top: -115px;
   display: flex;
@@ -1209,9 +1218,7 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
   background-color: #5496bd;
 }
 
-.social-btn:active .icon-twitter,
-.social-btn:active .icon-facebook,
-.social-btn:active .icon-youtube {
+.social-btn:active .icon-twitter, .social-btn:active .icon-facebook, .social-btn:active .icon-youtube {
   opacity: 0.3;
 }
 
