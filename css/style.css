@@ -446,6 +446,10 @@ iframe {
   justify-content: space-between;
 }
 
+input::-ms-clear {
+  display: none;
+}
+
 .form-description input {
   box-sizing: border-box;
   font-family: "PT Sans", "Arial", sans-serif;
