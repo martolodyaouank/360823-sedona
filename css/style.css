@@ -385,6 +385,7 @@ iframe {
   height: 590px;
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
+  border: none;
 }
 
 .form-description {
