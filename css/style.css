@@ -1123,6 +1123,7 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
   display: -webkit-box;
   display: flex;
   justify-content: flex-end;
+  font-size: 0;
 }
 
 .star-item {
@@ -1144,6 +1145,7 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
   padding-top: 2px;
   background-color: #f2f2f2;
   color: #666666;
+  font-size: 14px;
   text-align: center;
 }
 
