@@ -5,6 +5,9 @@ var dateOut = popup.querySelector("#date-out");
 var adults = popup.querySelector("#amount-adults");
 var children = popup.querySelector("#amount-children");
 var submit = popup.querySelector(".search-btn");
+var html = document.documentElement;
+
+html.className = html.className.replace("no-js", "js");
 
 link.addEventListener("click", function(event) {
   event.preventDefault();
@@ -16,6 +19,7 @@ link.addEventListener("click", function(event) {
     popup.classList.add("form-description-show");
     popup.classList.remove("form-description-hide");
   };
+
   dateIn.focus();
 });
 
