@@ -1305,6 +1305,10 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
   text-align: center;
   margin-right: 166px;
   margin-top: 10px;
+  font-size:0;
+}
+
+.footer-copyright-link span {
   font-size: 14px;
   line-height: 26px;
   color: #000000;
