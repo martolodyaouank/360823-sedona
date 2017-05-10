@@ -314,6 +314,9 @@ a {
 }
 
 .reservation {
+  position: relative;
+  z-index:1;
+  background-color: #ffffff;
   width: 600px;
   margin-top: 60px;
   margin-right: auto;
@@ -369,6 +372,7 @@ iframe {
 .form-description {
   display: none;
   position: absolute;
+  z-index:0;
   margin-top: 0;
   margin-right: auto;
   margin-left: 316px;
@@ -392,20 +396,15 @@ iframe {
 
 @-webkit-keyframes show {
   0% {
-    transform: translateX(-1000px);
-  }
-  50% {
-    transform: translateX(113px);
+    transform: translateY(-220px);
   }
 }
 
 @keyframes show {
   0% {
-    transform: translateX(-1000px);
+    transform: translateY(-220px);
   }
-  50% {
-    transform: translateX(113px);
-  }
+
 }
 
 .form-description-show {
@@ -414,8 +413,8 @@ iframe {
   display: flex;
   -webkit-animation-name: show;
   animation: show;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes shake {
@@ -533,6 +532,7 @@ input::-ms-clear {
   height: 22px;
   bottom: 8px;
   right: 10px;
+  font-size:0;
 }
 
 .icon-calendar-link-out {
@@ -542,6 +542,7 @@ input::-ms-clear {
   height: 22px;
   bottom: 7px;
   right: 10px;
+  font-size:0;
 }
 
 .icon-calendar {
@@ -623,7 +624,9 @@ input::-ms-clear {
 .amount-children-block label {
   padding-right: 25px;
 }
-
+.icon-plus, .icon-minus {
+  font-size:0;
+}
 .icon-minus::before {
   content: "";
   position: absolute;
@@ -855,7 +858,6 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
   font: inherit;
   background: none;
   border: none;
-  outline: none;
 }
 
 .price-range {
@@ -913,7 +915,6 @@ input[type="checkbox"]:checked:disabled+.checkbox-image {
   border: 2px solid #ffffff;
   border-radius: 1px;
   cursor: pointer;
-  outline: none;
 }
 
 .btn-transparent:hover {
